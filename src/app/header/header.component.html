@@ -1,29 +1,35 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-
-<header>
-    <h1>
-    <span>Proway</span><span>Computers</span>
+<header class="main-header">
+    <h1 class="main-header__title">
+        <span class="main-header__title--blue">ProWay</span><span class="main-header__title--orange">Computers</span>
     </h1>
+    <div class="container-menu">
 
-    <nav>
-         <ul>
-            <li><a>Produtos</a> </li>
-            <li><a>Carrinho</a></li>
-            <li><a>Contato</a></li>
-            <li><a></a></li>
-            <li><a></a></li>
-            <li><a ></a></li>
+   
+    <nav class="main-header__menu">
+        <ul>
+            <li>
+              <a>Produtos</a>
+            </li>
+            <li>
+                <a>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Carrinho
+                    <span class="badge-carrinho">0</span>
+                   
+                </a>
+            </li>
+            <li><a>Contato </a></li>
+            <li><a><i class="fa-brands fa-facebook-f"> </i></a></li>
+            <li><a><i class="fa-brands fa-instagram" > </i></a></li>
+            <li><a><i class="fa-brands fa-twitter"   > </i></a></li>
+            <li><a><i class="fa-brands fa-linkedin"  > </i></a></li>
         </ul>
     </nav>
-</header>
+     <form class="search-form">
+        <input type="text">
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+     </form>
 
-    
-</body>
-</html>
+    </div>
+   
+</header>
