@@ -18,9 +18,10 @@ export class ProdutosService {
 
   }
 
-  getOne(produtoId:number){
-    return this.produtos.find(produto=>produto.id);
+  getOne(produtoId : number){
+   
+    return this.produtos.find(produto=>produto.id=produtoId);
     
   }
-
+  
 }
