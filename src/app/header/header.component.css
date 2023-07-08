@@ -64,6 +64,8 @@
 }
 
 .search-form input{
+    width: 500px;
+    margin-left: 750px;
     box-sizing: border-box;
     height: 56px;
     padding: 28px;
@@ -83,3 +85,4 @@
     color: #fff;
     font-size: 22px;
 }
+
