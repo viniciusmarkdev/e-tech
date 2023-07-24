@@ -40,7 +40,7 @@ export class ContatoComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  enviarFormmulario(){
+  enviarFormulario(){
 
     alert("A mensagem foi enviada!");
 

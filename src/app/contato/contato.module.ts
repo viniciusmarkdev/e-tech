@@ -17,6 +17,7 @@ import { NgxMaskModule } from 'ngx-mask';
     ContatoRoutingModule,
     ReactiveFormsModule,
     NgxMaskModule.forRoot()
+    
   ]
 })
 export class ContatoModule { }

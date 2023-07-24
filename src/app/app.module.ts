@@ -8,6 +8,7 @@ import { RoutingAppModule } from './routing-app.module';
 import {BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSnackBarModule } from "@angular/material/snack-bar";
 import { FormsModule } from '@angular/forms';
+import { BarraPesquisaComponent } from './barra-pesquisa/barra-pesquisa.component';
 
 
 
@@ -16,6 +17,7 @@ import { FormsModule } from '@angular/forms';
     AppComponent,
     HeaderComponent,
     FooterComponent,
+    BarraPesquisaComponent,
     
 
 ],
@@ -26,10 +28,7 @@ import { FormsModule } from '@angular/forms';
     RoutingAppModule,
     BrowserAnimationsModule,
     MatSnackBarModule,
-    FormsModule,
-
-    
-   
+    FormsModule, 
   ],
   providers: [],
   bootstrap: [AppComponent]

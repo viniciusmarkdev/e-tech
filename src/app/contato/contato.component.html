@@ -1,6 +1,6 @@
 <h2 class="contact__title">Entre em contato</h2>
 <section class="contact__container">
-    <form class="contact-form" [formGroup]="formContato" (ngSubmit)="enviarFormmulario()">
+    <form class="contact-form" [formGroup]="formContato" (ngSubmit)="enviarFormulario()">
 
         <input 
         type="text" 
@@ -14,8 +14,7 @@
 
         <div *ngIf="formContato.controls['nome'].invalid && 
         (formContato.controls['nome'].touched || formContato.controls['nome'].dirty)"
-        >
-           
+        > 
             <small class="error-message" *ngIf="formContato.controls['nome'].hasError('minlength')">
                 Esse campo precisa de no mínimo 4 caracteres.
             </small>
